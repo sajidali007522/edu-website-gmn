@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="170" height="46" viewBox="0 0 170 46">
+  <defs>
+    <filter id="Combined_Shape" x="0" y="0" width="170" height="46" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Combined_Shape)">
+    <path id="Combined_Shape-2" data-name="Combined Shape" d="M151.5,27.5,151,27H13.5a13.5,13.5,0,0,1,0-27h131A13.5,13.5,0,0,1,158,13.5V34Z" transform="translate(6 6)" fill="#fff"/>
+  </g>
+</svg>

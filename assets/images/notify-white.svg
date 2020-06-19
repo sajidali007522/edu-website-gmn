@@ -1,0 +1,8 @@
+<svg id="Group_3" data-name="Group 3" xmlns="http://www.w3.org/2000/svg" width="14" height="20" viewBox="0 0 14 20">
+  <g id="Rectangle" transform="translate(0 2)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="2">
+    <path d="M7,0H7a7,7,0,0,1,7,7v8a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V7A7,7,0,0,1,7,0Z" stroke="none"/>
+    <path d="M7,1H7a6,6,0,0,1,6,6v6.912a.088.088,0,0,1-.088.088H1.088A.088.088,0,0,1,1,13.912V7A6,6,0,0,1,7,1Z" fill="none"/>
+  </g>
+  <rect id="Rectangle-2" data-name="Rectangle" width="2" height="4" transform="translate(6)" fill="#fff"/>
+  <path id="Combined_Shape" data-name="Combined Shape" d="M3,2C1.346,2,0,1.1,0,0H6C6,1.1,4.654,2,3,2Z" transform="translate(4 18)" fill="#fff"/>
+</svg>

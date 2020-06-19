@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="16px" viewBox="0 0 18 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Communication</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Library" transform="translate(-53.000000, -294.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M68.75,294 L55.25,294 C54.0089844,294 53,294.896823 53,295.999883 L53,304.999357 C53,306.102418 54.0089844,306.99924 55.25,306.99924 L58.625,306.99924 L58.625,309.624087 C58.625,309.930319 59.01875,310.108433 59.2964844,309.927194 L63.6875,306.99924 L68.75,306.99924 C69.9910156,306.99924 71,306.102418 71,304.999357 L71,295.999883 C71,294.896823 69.9910156,294 68.75,294 Z" id="Communication"></path>
+        </g>
+    </g>
+</svg>

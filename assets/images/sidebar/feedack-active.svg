@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="16px" viewBox="0 0 18 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Fill 1</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-21.000000, -233.000000)" fill="#FF6A65">
+            <path d="M22.6331787,233 C21.7323745,233 21,233.758336 21,234.659562 L21,248.591477 C21,248.756655 21.0997277,248.905826 21.2521149,248.968864 C21.3024,248.990004 21.3558255,249 21.4084851,249 C21.5146085,249 21.6191234,248.958523 21.6973277,248.880319 L24.0570679,247.014954 L37.3404383,247.014954 C38.2412426,247.014954 39,246.174968 39,245.273743 L39,234.659562 C39,233.758336 38.2412426,233 37.3404383,233 L22.6331787,233 Z M25,237 L35,237 L35,239 L25,239 L25,237 Z M25,241 L32,241 L32,243 L25,243 L25,241 Z" id="Fill-1"></path>
+        </g>
+    </g>
+</svg>
