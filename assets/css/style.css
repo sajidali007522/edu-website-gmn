@@ -265,7 +265,7 @@
 		color: #515F73;
 		font-family: 'robotomedium';
 		font-weight: 500;
-		max-width: 60%;
+		max-width: 80%;
 		margin: 0 auto 20px;
 	}
 	.work-third{
@@ -1356,6 +1356,15 @@
 	max-width: 760px;
 	margin: 0 auto;
 }
+.phq-aboutwrap{
+	padding: 80px 0 100px;
+}
+	.phq-about{
+		color: #515F73;
+	}
+	.phq-about p{
+		line-height: 30px;
+	}
 @media (max-width: 1408px) {   
 }
 @media (max-width: 1215px) {
@@ -1554,5 +1563,8 @@
 	.pricing-head .button{
 		font-size: 12px;
 		padding: 9px 8px 7px;
+	}
+	.phq-aboutwrap{
+		padding: 50px 0 40px;
 	}
 }

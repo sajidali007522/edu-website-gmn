@@ -303,7 +303,9 @@ ______________________*/
             min-width: inherit;
         }
         .eng{
-            background: url(../images/country-eng.png) left center no-repeat;
+            /*background: url(../images/country-eng.png) left center no-repeat;*/
+            background: url(../images/country-gm.png) left center no-repeat;
+            background-size: 21px auto;
         }
         .nav-links > ul > li.signup > a{
             font-family: 'robotomedium';
