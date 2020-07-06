@@ -99,6 +99,7 @@
 	}
 	.parent-icon{
 		max-width: 75px;
+		min-height: 82px;
 		margin: 0 auto 5px;
 	}
 .parent-logo-wrap{
@@ -478,6 +479,10 @@
     	width: 100%;
     	height: 400px;
     }
+    .modal-card-body video{
+    	width: 100%;
+    	height: 600px;
+    }
 .steps-section-wrap{
 	overflow: hidden;
 	padding: 25px 0;
@@ -514,8 +519,8 @@
 		position: absolute;
 		left: 50%;
 		bottom: 0;
-		width: 250px;
-		margin-left: -125px;
+		width: 280px;
+		margin-left: -140px;
 		text-align: center;
 	}
 	.steps-section .step-num{
@@ -660,7 +665,8 @@
 		background: none;
 		max-width: inherit;
 		max-height: inherit;
-		font-size: 20px;
+		font-size: 16px;
+		vertical-align: middle;
 	}
 	.notification-transparent .delete:before,
 	.notification-transparent .delete:after{
@@ -809,6 +815,13 @@
 	.psy-icon{
 		margin: 0 0 15px;
 	}
+	.psychoeducation-sm-icon .psy-icon{
+		min-height: 95px;
+	}
+	.psychoeducation-sm-icon .psy-icon img{
+		width: auto;
+		margin: 0 auto;
+	}
 	.psychoeducation-section h3{
 		font-size: 18px;
 		color: #3068B3;
@@ -865,6 +878,7 @@
 	.psy-icon{
 		width: 136px;
 		display: block;
+		min-height: 145px;
 		margin: 0 auto 15px;
 	}
 	.psy-icon img{
@@ -897,6 +911,7 @@
 	}
 .about-ps-wrap .psy-icon{
 	width: 75px;
+	min-height: 70px;
 }
 .article-mood-chart{
 	font-size: 16px;
@@ -1281,6 +1296,9 @@
 	}
 	.inner-info-wrap h4{
 		font-size: 21px;
+	}
+	.inner-info-wrap h5{
+		font-size: 17px;
 	}
 	.inner-info-wrap p{
 		line-height: 1.8;
