@@ -61,7 +61,12 @@
 		padding: 16px 10px;
 		min-width: 260px;
 		text-align: center;
-		text-transform: uppercase;
+		margin: 0 5px;
+	}
+	.banner-content .btn-play{
+		min-width: 65px;
+		color: #5978B7;
+		border-color: #fff;
 	}
 .banner-specialists{
 	background: url(../images/specialists/banner-specialists.png) center top no-repeat;
@@ -162,7 +167,7 @@
 	.health-section{
 		max-width: 360px;
 		margin: 0 auto;
-		padding: 0 10px 30px;
+		padding: 0 0 30px;
 	}
 	.health-icon{
 		height: 110px;
@@ -266,7 +271,7 @@
 		color: #515F73;
 		font-family: 'robotomedium';
 		font-weight: 500;
-		max-width: 80%;
+		max-width: 60%;
 		margin: 0 auto 20px;
 	}
 	.work-third{
@@ -412,6 +417,11 @@
 		color: #515F73;
 		padding: 0 20px 25px;
 	}
+	.team-section .psy-icon img{
+		-moz-border-radius: 50%;
+		-webkit-border-radius: 50%;
+		border-radius: 50%;
+	}
 	.team-photo{
 		margin:  0 0 12px;
 	}
@@ -432,6 +442,9 @@
 	}
 	.team-section h4 a{
 		color: #5978B7;
+	}
+	.team-home-wrap .team-section{
+		font-size: 14px;
 	}
 .modal{
 
@@ -472,8 +485,12 @@
         background: none;
         padding: 15px 70px 40px;
     }
-    #modal-video .modal-card-body{
+    #modal-video .modal-card-body,
+    .video-modal-wrap .modal-card-body{
     	padding: 20px;
+    }
+    .video-modal-wrap .modal-card{
+    	background: #000;
     }
     .modal-card-body iframe{
     	width: 100%;
@@ -519,9 +536,10 @@
 		position: absolute;
 		left: 50%;
 		bottom: 0;
-		width: 280px;
-		margin-left: -140px;
+		width: 260px;
+		margin-left: -130px;
 		text-align: center;
+		font-size: 15px;
 	}
 	.steps-section .step-num{
 		display: block;
@@ -818,6 +836,9 @@
 	.psychoeducation-sm-icon .psy-icon{
 		min-height: 95px;
 	}
+	.psychoeducation-120-icon .psy-icon{
+		min-height: 120px;
+	}
 	.psychoeducation-sm-icon .psy-icon img{
 		width: auto;
 		margin: 0 auto;
@@ -884,9 +905,6 @@
 	.psy-icon img{
 		display: block;
 		width: 100%;
-		-moz-border-radius: 50%;
-		-webkit-border-radius: 50%;
-		border-radius: 50%;
 	}
 	.team-section h3{
 		font-size: 18px;
@@ -1015,9 +1033,10 @@
 		color: #515F73;
 		text-transform: uppercase;
 		background: #F4F4F4;
-		padding: 18px 5px;
+		padding: 14px 5px 28px;
 		font-family: 'robotomedium';
 		font-weight: 500;
+		position: relative;
 		-moz-border-radius: 7px 7px 0 0;
 		-webkit-border-radius: 7px 7px 0 0;
 		border-radius: 7px 7px 0 0;
@@ -1033,6 +1052,14 @@
 		}
 		.login-register-section .tabs li:last-child.is-active a{
 			box-shadow: -7px -8px 10px rgba(18,46,79, 0.10);
+		}
+		.login-register-section .tabs li a .bltxt{
+			position: absolute;
+			left: 0;
+			bottom: 7px;
+			width: 100%;
+			text-align: center;
+			font-size: 13px;
 		}
 	.login-box{
 		background: #fff;
@@ -1383,6 +1410,16 @@
 	.phq-about p{
 		line-height: 30px;
 	}
+
+@media (min-width: 1200px) {
+	.modal-lg .modal-card,
+	.modal-lg .modal-content{
+		width: 1000px;
+	}
+	.modal-lg .modal-card-body iframe{
+		height: 600px;
+	}
+}
 @media (max-width: 1408px) {   
 }
 @media (max-width: 1215px) {

@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="assets/bulma/css/bulma.min.css">
     <link type="text/css" rel="stylesheet" href="assets/css/globel.css" />
     <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/german.css" />
     <script type="text/javascript" src="https://www.bugherd.com/sidebarv2.js?apikey=vjbgtwxjsxrq899e4rvhsa" async="true"></script>    
 </head>
 
@@ -110,11 +111,11 @@
         <div class="login-register-section">
             <div class="tabs js-tabs">
                 <ul>
-                    <li><a href="#content-1">Anmeldung</a></li>
-                    <li class="is-active"><a href="#content-2">als Neukunde </a></li>
+                    <li><a href="#content-1">Anmeldung <span class="bltxt">mit bestehendem Konto</span></a></li>
+                    <li class="is-active"><a href="#content-2">REGISTRIERUNG <span class="bltxt">als Neukunde</span> </a></li>
                 </ul>
             </div>
-            <div class="tabs-content">
+            <div class="tabs-content" id="content-1">
                 <div class="login-box">
                     <form action="phq-test.html" method="get" accept-charset="utf-8">
                         <div class="login-body">
@@ -128,17 +129,18 @@
                                     <input type="password" value="....." class="input">
                                 </div>
                                 <div class="profile-field-outer">
-                                    <input type="submit" value="ANMELDEN" class="button is-warning is-fullwidth">
+                                    <p><input type="submit" value="ANMELDEN" class="button is-warning is-fullwidth"></p>
+                                    <a href="#" class="has-underline">Forgot Password?</a>
                                 </div>
                             </div>
                         </div>
                         <div class="login-footer">
-                            <p>Sie haben noch kein Konto? <a href="registration.html">Bitte Registrieren</a> <a href="#">Forgot PW </a></p>
+                            <p>Sie haben noch kein Konto? <a href="signup.html">Bitte Registrieren</a></p>
                         </div>
                     </form>
                 </div>
             </div><!-- content-1 -->
-            <div class="tabs-content" id="content-2" id="content-1" style="display: block;">
+            <div class="tabs-content" id="content-2" style="display: block;">
                 <div class="login-box">
                     <div class="login-body">
                         <div class="form-general">
@@ -198,7 +200,7 @@
                 <p><a href="#"><img src="assets/images/logo-white.png" alt=""></a></p>
             </div>
             <ul>
-                <li>Muster erkennen & Veranderung initiieren</li>
+                <li>Muster erkennen & Veränderung initiieren</li>
                 <li>Experte der eigenen Erkrankung werden</li>
                 <li>Geringere Depressionssymptomatik</li>
                 <li>Praktische Empfehlungen und Tips</li>
@@ -270,8 +272,8 @@
                         <li><a href="blog.html">Blog</a></li>
                         <li><a href="registration.html">Login</a></li>
                         <li><a href="registration.html">Registrierung</a></li>
-                        <li><a href="term-and-conditions.html">Patienten</a></li>
-                        <li><a href="term-and-conditions-ds.html">AGB - Patienten</a></li>
+                        <li><a href="term-and-conditions.html">AGB - Patienten</a></li>
+                        <li><a href="term-and-conditions-ds.html">AGB - Professionals</a></li>
                         <li><a href="legal.html">Impressum</a></li>
                         <li><a href="privacy-statement.html">Datenschutzerklärung</a></li>
                     </ul>
